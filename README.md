@@ -120,12 +120,12 @@ In the `main.js` module, invoke the `PotteryList` component function. Take its r
 > 🧨 Before you click the "Assessment Complete" button on the Learning Platform, add your answers below for each question and make a commit. It is your option to request a face-to-face meeting with a coach for a vocabulary review.
 
 1. Explain how you got the HTML, with the correct data, displayed in the browser?
-   > Your answer here
+   > Within the body element of index.html, I created an article element with an id of “potteryList.” Subsequently, within PotteryList.js, I defined a function named ‘renderPotteryToDOM’ that employs the ‘.getElementById’ method to access the corresponding article element within the HTML file. Subsequently, I invoked the ‘renderPotteryToDOM’ function from the main.js file to retrieve the appropriate data for display in the browser.
 2. In the **PotteryList** module, when you iterate your pottery, you need to show the evidence of what the **weight** property's value is for the 2nd piece of pottery. Use [Loom](https://www.loom.com/) to record your browser window with the developer tools open and show those values.
-   > Paste your video's public URL here
+   > https://bit.ly/3Vouy0W
 3. The **PotteryWheel** module has a single function named `makePottery`. Why doesn't that module have all of the other code in it?
-   > Your answer here
+   > By dividing code into different modules, we enhance its readability and maintainability, replacing the need to traverse lengthy files with numerous lines of code. Adhering to the Single Responsibility Principle facilitates this process by ensuring that each module possesses a singular purpose. PotteryWheel’s sole function is to define a function for pottery creation.
 4. The pottery shop has learned that there is a set of customers that are willing to buy cracked pottery at a discounted price of $2.50. That means that the cracked pottery should now be displayed in the catalog. Explain the changes that this new business strategy would cause to your algorithm.
-   > Your answer here
+   > To implement the additional functionality, I would need to modify the ‘toSellOrNotToSell’ function in PotteryCatalog.js. This function would require an additional ‘if’ statement that checks if the ‘isSold’ property is set to true.newItem.cracked === true, it would set the ‘newItem.price’ to 2.50 and then add the newItem to the array of pottery to be sold.
 5. In the **Kiln** module, you have a `firePottery()` function. You need to demonstrate how to use the debugger to verify the values of the parameters for that function when your code runs. Use [Loom](https://www.loom.com/) to record your browser window with the developer tools open and show those values.
-   > Paste your video's public URL here
+   > https://bit.ly/4f2HCjI
